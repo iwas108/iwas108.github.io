@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Primary SEO Meta Tags -->
   <title>I Wayan Aditya Suranata (Nang Adit, iwas108) — Personal Portfolio & Project Showcase</title>
   <meta name="title" content="I Wayan Aditya Suranata (Nang Adit, iwas108) — Personal Portfolio & Project Showcase">
-  <meta name="description" content="Personal landing page and project showcase of I Wayan Aditya Suranata (Nang Adit, iwas108). Explore 8 featured open-source innovations in Smart Farming IoT (UDAWA ecosystem), AI research assistance (SLR-Magic), audio sync (lirius), and academic outliner tools.">
-  <meta name="keywords" content="I Wayan Aditya Suranata, Nang Adit, iwas108, SLR-Magic, Outliner, lirius, UDAWA, UDAWA-Gadadar, UDAWA-Cloud-WebIface, UDAWA-Damodar, UDAWA-Murari, UDAWA-Embedded-WebIface, Precision Agriculture, Smart Greenhouse, IoT, ESP32, Hydroponics, Undiknas, Wageningen University, Narin Laboratory">
+  <meta name="description"
+    content="Personal landing page and project showcase of I Wayan Aditya Suranata (Nang Adit, iwas108). Explore 8 featured open-source innovations in Smart Farming IoT (UDAWA ecosystem), AI research assistance (SLR-Magic), audio sync (lirius), and academic outliner tools.">
+  <meta name="keywords"
+    content="I Wayan Aditya Suranata, Nang Adit, iwas108, SLR-Magic, Outliner, lirius, UDAWA, UDAWA-Gadadar, UDAWA-Cloud-WebIface, UDAWA-Damodar, UDAWA-Murari, UDAWA-Embedded-WebIface, Precision Agriculture, Smart Greenhouse, IoT, ESP32, Hydroponics, Undiknas, Wageningen University, Narin Laboratory">
   <meta name="author" content="I Wayan Aditya Suranata (Nang Adit, iwas108)">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="theme-color" content="#10b981">
@@ -26,7 +29,8 @@
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://iwas108.github.io/">
   <meta property="og:title" content="I Wayan Aditya Suranata (Nang Adit, iwas108) — Personal Portfolio & Projects">
-  <meta property="og:description" content="Explore research and engineering projects across Smart Agriculture IoT (UDAWA ecosystem), AI Research Automation (SLR-Magic), and Knowledge Tools by I Wayan Aditya Suranata.">
+  <meta property="og:description"
+    content="Explore research and engineering projects across Smart Agriculture IoT (UDAWA ecosystem), AI Research Automation (SLR-Magic), and Knowledge Tools by I Wayan Aditya Suranata.">
   <meta property="og:site_name" content="iwas108 Portfolio">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://iwas108.github.io/og-card.svg">
@@ -39,7 +43,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://iwas108.github.io/">
   <meta name="twitter:title" content="I Wayan Aditya Suranata (Nang Adit, iwas108) — Personal Portfolio">
-  <meta name="twitter:description" content="Explore research and engineering projects across Smart Agriculture IoT (UDAWA ecosystem), AI Research Automation (SLR-Magic), and Knowledge Tools.">
+  <meta name="twitter:description"
+    content="Explore research and engineering projects across Smart Agriculture IoT (UDAWA ecosystem), AI Research Automation (SLR-Magic), and Knowledge Tools.">
   <meta name="twitter:image" content="https://iwas108.github.io/og-card.svg">
   <meta name="twitter:image:alt" content="I Wayan Aditya Suranata (Nang Adit, iwas108) Banner">
   <meta name="twitter:creator" content="@iwas108">
@@ -214,7 +219,9 @@
   <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <!-- Tailwind CSS Newest Framework (Tailwind v4 Browser Runtime) -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -274,13 +281,16 @@
     ::-webkit-scrollbar {
       width: 8px;
     }
+
     ::-webkit-scrollbar-track {
       background: var(--bg-page);
     }
+
     ::-webkit-scrollbar-thumb {
       background: #64748b;
       border-radius: 4px;
     }
+
     ::-webkit-scrollbar-thumb:hover {
       background: #10b981;
     }
@@ -292,6 +302,7 @@
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
     }
+
     .glass-card {
       background: var(--card-bg);
       border-color: var(--card-border);
@@ -301,36 +312,57 @@
 
     /* Animations */
     @keyframes blobPulse {
-      0%, 100% { transform: scale(1) translate(0px, 0px); }
-      33% { transform: scale(1.1) translate(20px, -30px); }
-      66% { transform: scale(0.95) translate(-20px, 15px); }
+
+      0%,
+      100% {
+        transform: scale(1) translate(0px, 0px);
+      }
+
+      33% {
+        transform: scale(1.1) translate(20px, -30px);
+      }
+
+      66% {
+        transform: scale(0.95) translate(-20px, 15px);
+      }
     }
+
     .animate-ambient-blob {
       animation: blobPulse 10s ease-in-out infinite;
     }
   </style>
 </head>
+
 <body class="font-sans antialiased min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white">
 
   <!-- Background Ambient Glow (Decorative) -->
   <div class="fixed inset-0 overflow-hidden pointer-events-none z-0" aria-hidden="true">
-    <div class="absolute -top-40 -left-40 w-96 h-96 bg-emerald-500/10 dark:bg-emerald-500/15 rounded-full blur-3xl animate-ambient-blob"></div>
-    <div class="absolute top-1/3 -right-40 w-96 h-96 bg-sky-500/10 dark:bg-sky-500/15 rounded-full blur-3xl animate-ambient-blob" style="animation-delay: 3s;"></div>
-    <div class="absolute -bottom-40 left-1/3 w-96 h-96 bg-indigo-500/10 dark:bg-indigo-500/15 rounded-full blur-3xl animate-ambient-blob" style="animation-delay: 6s;"></div>
+    <div
+      class="absolute -top-40 -left-40 w-96 h-96 bg-emerald-500/10 dark:bg-emerald-500/15 rounded-full blur-3xl animate-ambient-blob">
+    </div>
+    <div
+      class="absolute top-1/3 -right-40 w-96 h-96 bg-sky-500/10 dark:bg-sky-500/15 rounded-full blur-3xl animate-ambient-blob"
+      style="animation-delay: 3s;"></div>
+    <div
+      class="absolute -bottom-40 left-1/3 w-96 h-96 bg-indigo-500/10 dark:bg-indigo-500/15 rounded-full blur-3xl animate-ambient-blob"
+      style="animation-delay: 6s;"></div>
   </div>
 
   <!-- Header / Navigation -->
   <header class="sticky top-0 z-40 w-full glass-nav border-b transition-colors duration-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20">
-        
+
         <!-- Logo / Name Badge -->
-        <a href="#hero" class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-xl p-1 min-h-[44px]">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-sky-500 flex items-center justify-center font-mono font-extrabold text-white shadow-lg shadow-emerald-500/25 group-hover:scale-105 transition-transform duration-200">
+        <a href="#hero"
+          class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded-xl p-1 min-h-[44px]">
+          <div
+            class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-sky-500 flex items-center justify-center font-mono font-extrabold text-white shadow-lg shadow-emerald-500/25 group-hover:scale-105 transition-transform duration-200">
             <span>108</span>
           </div>
           <div class="flex flex-col">
-            <span class="font-extrabold text-sm sm:text-base tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
+            <span
+              class="font-extrabold text-sm sm:text-base tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
               I Wayan Aditya Suranata
               <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" title="Active"></span>
             </span>
@@ -339,40 +371,58 @@
         </a>
 
         <!-- Desktop Navigation Links -->
-        <nav class="hidden md:flex items-center gap-1 text-sm font-medium text-slate-600 dark:text-slate-300" aria-label="Main Navigation">
-          <a href="#about" class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">About</a>
-          <a href="#quotes" class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Philosophy</a>
-          <a href="#projects" class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Projects (8)</a>
-          <a href="#ecosystem" class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">UDAWA Ecosystem</a>
-          <a href="#connect" class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Connect</a>
+        <nav class="hidden md:flex items-center gap-1 text-sm font-medium text-slate-600 dark:text-slate-300"
+          aria-label="Main Navigation">
+          <a href="#about"
+            class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">About</a>
+          <a href="#quotes"
+            class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Philosophy</a>
+          <a href="#projects"
+            class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Projects
+            (8)</a>
+          <a href="#ecosystem"
+            class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">UDAWA
+            Ecosystem</a>
+          <a href="#connect"
+            class="px-3.5 py-2 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors">Connect</a>
         </nav>
 
         <!-- Right Actions -->
         <div class="flex items-center gap-2 sm:gap-3">
           <!-- Theme Toggle -->
-          <button id="theme-toggle" type="button" aria-label="Toggle light or dark theme" class="p-2.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors border border-slate-200 dark:border-slate-800 min-w-[44px] min-h-[44px] flex items-center justify-center">
+          <button id="theme-toggle" type="button" aria-label="Toggle light or dark theme"
+            class="p-2.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 transition-colors border border-slate-200 dark:border-slate-800 min-w-[44px] min-h-[44px] flex items-center justify-center">
             <!-- Sun Icon (shown when dark) -->
-            <svg id="theme-icon-sun" class="w-5 h-5 hidden text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+            <svg id="theme-icon-sun" class="w-5 h-5 hidden text-amber-400" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg>
             <!-- Moon Icon (shown when light) -->
-            <svg id="theme-icon-moon" class="w-5 h-5 text-slate-700 dark:text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+            <svg id="theme-icon-moon" class="w-5 h-5 text-slate-700 dark:text-slate-300" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
             </svg>
           </button>
 
           <!-- GitHub Profile Link -->
-          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile iwas108" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 shadow-sm transition-all hover:scale-105 min-h-[44px]">
+          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub Profile iwas108"
+            class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 shadow-sm transition-all hover:scale-105 min-h-[44px]">
             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
             </svg>
             <span>GitHub</span>
           </a>
 
           <!-- Mobile Hamburger -->
-          <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu" class="md:hidden p-2.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 focus:outline-none min-w-[44px] min-h-[44px] flex items-center justify-center">
+          <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu"
+            aria-label="Toggle navigation menu"
+            class="md:hidden p-2.5 rounded-xl text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 focus:outline-none min-w-[44px] min-h-[44px] flex items-center justify-center">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
@@ -381,14 +431,28 @@
       <!-- Mobile Dropdown Menu -->
       <div id="mobile-menu" class="hidden md:hidden pb-4 pt-2 border-t border-slate-200 dark:border-slate-800">
         <div class="flex flex-col space-y-1 text-sm font-medium text-slate-700 dark:text-slate-300">
-          <a href="#about" class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">About &amp; Biography</a>
-          <a href="#quotes" class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Personal Philosophy</a>
-          <a href="#projects" class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Featured Projects (8)</a>
-          <a href="#ecosystem" class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">UDAWA Ecosystem</a>
-          <a href="#connect" class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Connect &amp; Contact</a>
-          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-emerald-600 dark:text-emerald-400 font-semibold hover:bg-slate-100 dark:hover:bg-slate-800/80">
+          <a href="#about"
+            class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">About
+            &amp; Biography</a>
+          <a href="#quotes"
+            class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Personal
+            Philosophy</a>
+          <a href="#projects"
+            class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Featured
+            Projects (8)</a>
+          <a href="#ecosystem"
+            class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">UDAWA
+            Ecosystem</a>
+          <a href="#connect"
+            class="px-3.5 py-2.5 rounded-xl hover:text-emerald-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/80 mobile-nav-link">Connect
+            &amp; Contact</a>
+          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer"
+            class="flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-emerald-600 dark:text-emerald-400 font-semibold hover:bg-slate-100 dark:hover:bg-slate-800/80">
             <span>GitHub Profile (@iwas108)</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
           </a>
         </div>
       </div>
@@ -401,48 +465,74 @@
     <!-- HERO SECTION -->
     <section id="hero" class="relative pt-12 pb-16 sm:pt-20 sm:pb-24 overflow-hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div class="text-center max-w-4xl mx-auto">
-          
+
           <!-- Top Badge -->
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/70 border border-emerald-300 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-300 mb-6 shadow-sm">
+          <div
+            class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/70 border border-emerald-300 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-300 mb-6 shadow-sm">
             <span class="flex h-2 w-2 relative">
-              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span
+                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
             <span>Academic Researcher &amp; Systems Engineer • Open-Source Showcase</span>
           </div>
 
           <!-- Main Hero Heading -->
-          <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight sm:leading-tight mb-6">
-            Engineering <span class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 via-teal-500 to-sky-600 dark:from-emerald-400 dark:via-teal-300 dark:to-sky-400">Cyber-Physical Agriculture</span> &amp; Intelligent Research Systems
+          <h1
+            class="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight sm:leading-tight mb-6">
+            Engineering <span
+              class="bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 via-teal-500 to-sky-600 dark:from-emerald-400 dark:via-teal-300 dark:to-sky-400">Cyber-Physical
+              Agriculture</span> &amp; Intelligent Research Systems
           </h1>
 
           <!-- Personal Identity & Subtitle -->
-          <p class="text-base sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed mb-6">
-            Hello, I am <strong class="text-slate-900 dark:text-white font-semibold">I Wayan Aditya Suranata</strong> (popularly known as <span class="text-emerald-600 dark:text-emerald-400 font-semibold">Nang Adit</span> or <code class="font-mono text-sky-600 dark:text-sky-300 font-semibold">iwas108</code>). Lecturer at <strong class="text-slate-800 dark:text-slate-200">Undiknas</strong>, PhD Researcher at <strong class="text-slate-800 dark:text-slate-200">Wageningen University &amp; Research (WUR)</strong>, and Founder of <strong class="text-slate-800 dark:text-slate-200">Narin Laboratory</strong>.
+          <p
+            class="text-base sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed mb-6">
+            Hello, I am <strong class="text-slate-900 dark:text-white font-semibold">I Wayan Aditya Suranata</strong>
+            (popularly known as <span class="text-emerald-600 dark:text-emerald-400 font-semibold">Nang Adit</span> or
+            <code class="font-mono text-sky-600 dark:text-sky-300 font-semibold">iwas108</code>). Lecturer at <strong
+              class="text-slate-800 dark:text-slate-200">Undiknas</strong>, PhD Researcher at <strong
+              class="text-slate-800 dark:text-slate-200">Wageningen University &amp; Research (WUR)</strong>, and
+            Founder of <strong class="text-slate-800 dark:text-slate-200">Narin Laboratory</strong>.
           </p>
 
           <!-- Core Brand Quote Banner -->
-          <div class="mb-10 p-4 sm:p-5 rounded-2xl glass-card border border-emerald-200 dark:border-emerald-500/30 max-w-3xl mx-auto shadow-md">
+          <div
+            class="mb-10 p-4 sm:p-5 rounded-2xl glass-card border border-emerald-200 dark:border-emerald-500/30 max-w-3xl mx-auto shadow-md">
             <p class="text-sm sm:text-base font-semibold text-emerald-800 dark:text-emerald-300 italic">
-              "Selesai Belajar Mengajarlah, Dengan Demikian Kau Akan Terus Belajar. || Bersyukur adalah wujud nyata dari 'jangan lupa bahagia'."
+              "Selesai Belajar Mengajarlah, Dengan Demikian Kau Akan Terus Belajar. || Bersyukur adalah wujud nyata dari
+              'jangan lupa bahagia'."
             </p>
-            <span class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-1.5 block">— I Wayan Aditya Suranata (Nang Adit, iwas108)</span>
+            <span class="text-xs font-mono text-slate-500 dark:text-slate-400 mt-1.5 block">— I Wayan Aditya Suranata
+              (Nang Adit, iwas108)</span>
           </div>
 
           <!-- CTAs -->
           <div class="flex flex-wrap items-center justify-center gap-4 mb-14">
-            <a href="#projects" class="px-6 py-3.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white dark:text-slate-950 shadow-lg shadow-emerald-500/25 transition-all hover:scale-105 flex items-center gap-2 min-h-[44px]">
+            <a href="#projects"
+              class="px-6 py-3.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white dark:text-slate-950 shadow-lg shadow-emerald-500/25 transition-all hover:scale-105 flex items-center gap-2 min-h-[44px]">
               <span>Explore 8 Projects</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
             </a>
-            <a href="#quotes" class="px-6 py-3.5 rounded-xl font-semibold text-sm bg-white dark:bg-slate-900/90 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 shadow-sm transition-all hover:scale-105 flex items-center gap-2 min-h-[44px]">
-              <svg class="w-4 h-4 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            <a href="#quotes"
+              class="px-6 py-3.5 rounded-xl font-semibold text-sm bg-white dark:bg-slate-900/90 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 shadow-sm transition-all hover:scale-105 flex items-center gap-2 min-h-[44px]">
+              <svg class="w-4 h-4 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
               <span>Personal Philosophy</span>
             </a>
-            <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer" class="px-5 py-3.5 rounded-xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 border border-transparent hover:border-slate-200 dark:hover:border-slate-700 transition-all flex items-center gap-2 min-h-[44px]">
-              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer"
+              class="px-5 py-3.5 rounded-xl font-semibold text-sm text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800/60 border border-transparent hover:border-slate-200 dark:hover:border-slate-700 transition-all flex items-center gap-2 min-h-[44px]">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>
               <span>GitHub Profile</span>
             </a>
           </div>
@@ -450,15 +540,17 @@
           <!-- Highlight Metric Badges -->
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
             <div class="glass-card p-4 rounded-2xl border shadow-sm">
-              <div class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
                 <span class="text-emerald-600 dark:text-emerald-400">8</span>
                 <span class="text-xs font-sans text-slate-500 dark:text-slate-400 font-normal">repos</span>
               </div>
               <p class="text-xs text-slate-500 dark:text-slate-400 mt-1 font-medium">Showcased Projects</p>
             </div>
-            
+
             <div class="glass-card p-4 rounded-2xl border shadow-sm">
-              <div class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
                 <span class="text-sky-600 dark:text-sky-400">5</span>
                 <span class="text-xs font-sans text-slate-500 dark:text-slate-400 font-normal">nodes</span>
               </div>
@@ -466,7 +558,8 @@
             </div>
 
             <div class="glass-card p-4 rounded-2xl border shadow-sm">
-              <div class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
                 <span class="text-indigo-600 dark:text-indigo-400">LLM</span>
                 <span class="text-xs font-sans text-slate-500 dark:text-slate-400 font-normal">&amp; AI</span>
               </div>
@@ -474,7 +567,8 @@
             </div>
 
             <div class="glass-card p-4 rounded-2xl border shadow-sm">
-              <div class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
+              <div
+                class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-mono flex items-center gap-1">
                 <span class="text-teal-600 dark:text-teal-400">100%</span>
                 <span class="text-xs font-sans text-slate-500 dark:text-slate-400 font-normal">local</span>
               </div>
@@ -488,64 +582,96 @@
     </section>
 
     <!-- BRANDING & PHILOSOPHY SECTION (THE QUOTES) -->
-    <section id="quotes" class="py-16 sm:py-20 border-t border-b border-slate-200 dark:border-slate-800/80 bg-slate-100/50 dark:bg-slate-900/40 relative">
+    <section id="quotes"
+      class="py-16 sm:py-20 border-t border-b border-slate-200 dark:border-slate-800/80 bg-slate-100/50 dark:bg-slate-900/40 relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div class="text-center max-w-3xl mx-auto mb-12">
-          <span class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Personal Branding &amp; Creed</span>
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-2">Philosophies Guiding My Research &amp; Teaching</h2>
+          <span
+            class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Personal
+            Branding &amp; Creed</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mt-2">Philosophies Guiding My
+            Research &amp; Teaching</h2>
           <p class="text-slate-600 dark:text-slate-400 text-sm mt-2">
-            The dual core principles that steer I Wayan Aditya Suranata's journey as an academic educator, researcher, and systems architect.
+            The dual core principles that steer I Wayan Aditya Suranata's journey as an academic educator, researcher,
+            and systems architect.
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          
+
           <!-- Quote Card 1 -->
-          <div class="relative p-8 rounded-3xl glass-card border border-emerald-500/20 hover:border-emerald-500/40 transition-all shadow-lg group overflow-hidden">
-            <div class="absolute -right-6 -top-6 w-28 h-28 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all"></div>
-            
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 font-bold">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-              </div>
-              <span class="text-xs font-mono font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">Teaching &amp; Lifelong Learning</span>
+          <div
+            class="relative p-8 rounded-3xl glass-card border border-emerald-500/20 hover:border-emerald-500/40 transition-all shadow-lg group overflow-hidden">
+            <div
+              class="absolute -right-6 -top-6 w-28 h-28 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all">
             </div>
 
-            <blockquote class="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white leading-snug mb-4 italic">
+            <div class="flex items-center gap-3 mb-4">
+              <div
+                class="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-mono font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">Teaching
+                &amp; Lifelong Learning</span>
+            </div>
+
+            <blockquote
+              class="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white leading-snug mb-4 italic">
               "Selesai Belajar Mengajarlah, Dengan Demikian Kau Akan Terus Belajar."
             </blockquote>
 
             <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed border-l-2 border-emerald-500/50 pl-3">
-              <strong class="text-slate-900 dark:text-white font-medium">Reflective Wisdom:</strong> Knowledge is never a closed circle. When you step forward to teach, mentor, and share with students and peers, your own understanding is tested, challenged, and perpetually deepened.
+              <strong class="text-slate-900 dark:text-white font-medium">Reflective Wisdom:</strong> Knowledge is never
+              a closed circle. When you step forward to teach, mentor, and share with students and peers, your own
+              understanding is tested, challenged, and perpetually deepened.
             </p>
 
-            <div class="mt-6 flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
+            <div
+              class="mt-6 flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
               <span class="font-medium text-slate-800 dark:text-slate-200">I Wayan Aditya Suranata</span>
               <span class="font-mono text-emerald-600 dark:text-emerald-400 font-semibold">#Pendidik #Periset</span>
             </div>
           </div>
 
           <!-- Quote Card 2 -->
-          <div class="relative p-8 rounded-3xl glass-card border border-sky-500/20 hover:border-sky-500/40 transition-all shadow-lg group overflow-hidden">
-            <div class="absolute -right-6 -top-6 w-28 h-28 bg-sky-500/10 rounded-full blur-2xl group-hover:bg-sky-500/20 transition-all"></div>
-            
-            <div class="flex items-center gap-3 mb-4">
-              <div class="w-10 h-10 rounded-xl bg-sky-500/20 border border-sky-500/30 flex items-center justify-center text-sky-600 dark:text-sky-400 font-bold">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              </div>
-              <span class="text-xs font-mono font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">Mindfulness &amp; Joy</span>
+          <div
+            class="relative p-8 rounded-3xl glass-card border border-sky-500/20 hover:border-sky-500/40 transition-all shadow-lg group overflow-hidden">
+            <div
+              class="absolute -right-6 -top-6 w-28 h-28 bg-sky-500/10 rounded-full blur-2xl group-hover:bg-sky-500/20 transition-all">
             </div>
 
-            <blockquote class="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white leading-snug mb-4 italic">
-              "Bersyukur adalah wujud nyata dari <span class="text-sky-600 dark:text-sky-300 font-bold">'jangan lupa bahagia'</span>."
+            <div class="flex items-center gap-3 mb-4">
+              <div
+                class="w-10 h-10 rounded-xl bg-sky-500/20 border border-sky-500/30 flex items-center justify-center text-sky-600 dark:text-sky-400 font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-mono font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">Mindfulness
+                &amp; Joy</span>
+            </div>
+
+            <blockquote
+              class="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white leading-snug mb-4 italic">
+              "Bersyukur adalah wujud nyata dari <span class="text-sky-600 dark:text-sky-300 font-bold">'jangan lupa
+                bahagia'</span>."
             </blockquote>
 
             <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed border-l-2 border-sky-500/50 pl-3">
-              <strong class="text-slate-900 dark:text-white font-medium">Reflective Wisdom:</strong> Joy is not a random occurrence—it is an intentional posture cultivated through sincere gratitude for the opportunity to innovate, solve agricultural challenges, and uplift community welfare.
+              <strong class="text-slate-900 dark:text-white font-medium">Reflective Wisdom:</strong> Joy is not a random
+              occurrence—it is an intentional posture cultivated through sincere gratitude for the opportunity to
+              innovate, solve agricultural challenges, and uplift community welfare.
             </p>
 
-            <div class="mt-6 flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
+            <div
+              class="mt-6 flex items-center justify-between pt-4 border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
               <span class="font-medium text-slate-800 dark:text-slate-200">Nang Adit (iwas108)</span>
               <span class="font-mono text-sky-600 dark:text-sky-400 font-semibold">#Bersyukur #Harmoni</span>
             </div>
@@ -559,80 +685,118 @@
     <!-- ABOUT SECTION -->
     <section id="about" class="py-16 sm:py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-          
+
           <!-- Avatar / Identity Badge -->
           <div class="lg:col-span-5 flex flex-col items-center text-center">
             <div class="relative group">
-              <div class="w-48 h-48 sm:w-56 sm:h-56 rounded-3xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-sky-500 p-1 shadow-2xl shadow-emerald-500/20 transform group-hover:rotate-1 transition-all duration-300">
-                <div class="w-full h-full rounded-[22px] bg-slate-100 dark:bg-slate-900 flex flex-col items-center justify-center p-4 border border-slate-200 dark:border-slate-800">
+              <div
+                class="w-48 h-48 sm:w-56 sm:h-56 rounded-3xl bg-gradient-to-tr from-emerald-500 via-teal-500 to-sky-500 p-1 shadow-2xl shadow-emerald-500/20 transform group-hover:rotate-1 transition-all duration-300">
+                <div
+                  class="w-full h-full rounded-[22px] bg-slate-100 dark:bg-slate-900 flex flex-col items-center justify-center p-4 border border-slate-200 dark:border-slate-800">
                   <div class="text-6xl mb-2" role="img" aria-label="Smart Agriculture Sprout">🌿</div>
-                  <span class="font-mono text-xs text-emerald-600 dark:text-emerald-400 font-semibold tracking-wider uppercase">Narin Laboratory</span>
+                  <span
+                    class="font-mono text-xs text-emerald-600 dark:text-emerald-400 font-semibold tracking-wider uppercase">Narin
+                    Laboratory</span>
                   <span class="font-bold text-slate-900 dark:text-white text-lg mt-1">Nang Adit</span>
                   <span class="font-mono text-xs text-slate-500 dark:text-slate-400">@iwas108</span>
                 </div>
               </div>
-              <div class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 px-4 py-1 rounded-full bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-700 text-[11px] font-mono font-semibold text-emerald-600 dark:text-emerald-400 shadow-md whitespace-nowrap">
+              <div
+                class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 px-4 py-1 rounded-full bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-700 text-[11px] font-mono font-semibold text-emerald-600 dark:text-emerald-400 shadow-md whitespace-nowrap">
                 Bali 🇮🇩 &amp; Wageningen 🇳🇱
               </div>
             </div>
 
             <div class="mt-8 flex flex-wrap gap-2 justify-center max-w-sm">
-              <span class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">IoT Architect</span>
-              <span class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Precision Agriculture</span>
-              <span class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Cyber-Physical Systems</span>
-              <span class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">AI / LLM Research</span>
+              <span
+                class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">IoT
+                Architect</span>
+              <span
+                class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Precision
+                Agriculture</span>
+              <span
+                class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">Cyber-Physical
+                Systems</span>
+              <span
+                class="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700">AI
+                / LLM Research</span>
             </div>
           </div>
 
           <!-- Biography & Story -->
           <div class="lg:col-span-7">
-            <span class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Academic &amp; Engineering Profile</span>
+            <span
+              class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Academic
+              &amp; Engineering Profile</span>
             <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-2 leading-tight">
               Bridging Rigorous Scientific Research with Real-World Cyber-Physical Systems
             </h2>
-            
+
             <p class="text-slate-600 dark:text-slate-300 mt-4 leading-relaxed text-sm sm:text-base">
-              I am an academic lecturer at <strong class="text-slate-900 dark:text-white">Universitas Pendidikan Nasional (Undiknas)</strong> and a PhD researcher at <strong class="text-slate-900 dark:text-white">Wageningen University &amp; Research (WUR)</strong>. Through <strong class="text-slate-900 dark:text-white">Narayana Instrument Laboratory (Narin-Laboratory)</strong>, I engineer robust cyber-physical hardware and software instruments for precision agriculture.
+              I am an academic lecturer at <strong class="text-slate-900 dark:text-white">Universitas Pendidikan
+                Nasional (Undiknas)</strong> and a PhD researcher at <strong
+                class="text-slate-900 dark:text-white">Wageningen University &amp; Research (WUR)</strong>. Through
+              <strong class="text-slate-900 dark:text-white">Narayana Instrument Laboratory (Narin-Laboratory)</strong>,
+              I engineer robust cyber-physical hardware and software instruments for precision agriculture.
             </p>
 
             <p class="text-slate-600 dark:text-slate-300 mt-3 leading-relaxed text-sm sm:text-base">
-              My flagship initiative is <strong class="text-emerald-600 dark:text-emerald-400">UDAWA</strong> (<em>Universal Digital Agriculture Watering Assistant</em>)—a modular ecosystem spanning greenhouse microclimate surveillance, automated hydroponic nutrient dosing, AC electrical metering, on-chip LittleFS web interfaces, and centralized cloud telemetry.
+              My flagship initiative is <strong class="text-emerald-600 dark:text-emerald-400">UDAWA</strong>
+              (<em>Universal Digital Agriculture Workflow Assistant</em>)—a modular ecosystem spanning greenhouse
+              microclimate surveillance, automated hydroponic nutrient dosing, AC electrical metering, on-chip LittleFS
+              web interfaces, and centralized cloud telemetry.
             </p>
 
             <p class="text-slate-600 dark:text-slate-300 mt-3 leading-relaxed text-sm sm:text-base">
-              Complementing my IoT research, I author AI platforms like <strong class="text-indigo-600 dark:text-indigo-400">SLR-Magic</strong> to automate Systematic Literature Reviews with local-first LLM precision, as well as creative productivity tools such as <strong class="text-indigo-600 dark:text-indigo-400">Outliner</strong> and <strong class="text-sky-600 dark:text-sky-400">lirius</strong>.
+              Complementing my IoT research, I author AI platforms like <strong
+                class="text-indigo-600 dark:text-indigo-400">SLR-Magic</strong> to automate Systematic Literature
+              Reviews with local-first LLM precision, as well as creative productivity tools such as <strong
+                class="text-indigo-600 dark:text-indigo-400">Outliner</strong> and <strong
+                class="text-sky-600 dark:text-sky-400">lirius</strong>.
             </p>
 
             <!-- Key Competencies -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
-              <div class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
+              <div
+                class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
                 <span class="text-emerald-500 text-xl" role="img" aria-label="Agriculture">🌱</span>
                 <div>
-                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Precision Farming</h3>
-                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Automated nutrient dosing, EC/pH monitoring &amp; microclimate VPD regulation.</p>
+                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Precision
+                    Farming</h3>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Automated nutrient dosing, EC/pH
+                    monitoring &amp; microclimate VPD regulation.</p>
                 </div>
               </div>
-              <div class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
+              <div
+                class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
                 <span class="text-sky-500 text-xl" role="img" aria-label="Microcontroller">⚡</span>
                 <div>
-                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Edge Firmware &amp; ESP32</h3>
-                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">ESP32, FreeRTOS, MQTT, LittleFS web servers, and real-time AC power sensing.</p>
+                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Edge Firmware
+                    &amp; ESP32</h3>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">ESP32, FreeRTOS, MQTT, LittleFS web
+                    servers, and real-time AC power sensing.</p>
                 </div>
               </div>
-              <div class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
+              <div
+                class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
                 <span class="text-indigo-500 text-xl" role="img" aria-label="AI Tools">🤖</span>
                 <div>
-                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">AI &amp; Research Platforms</h3>
-                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Local LLMs, Gemini API integration, and semantic screening for Systematic Reviews.</p>
+                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">AI &amp;
+                    Research Platforms</h3>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Local LLMs, Gemini API integration, and
+                    semantic screening for Systematic Reviews.</p>
                 </div>
               </div>
-              <div class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
+              <div
+                class="flex items-start gap-3 p-3 rounded-2xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 shadow-sm">
                 <span class="text-amber-500 text-xl" role="img" aria-label="Education">🎓</span>
                 <div>
-                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Education &amp; Mentorship</h3>
-                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Hands-on student engineering labs, open-source hardware, and knowledge sharing.</p>
+                  <h3 class="text-xs font-bold text-slate-900 dark:text-white uppercase tracking-wider">Education &amp;
+                    Mentorship</h3>
+                  <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Hands-on student engineering labs,
+                    open-source hardware, and knowledge sharing.</p>
                 </div>
               </div>
             </div>
@@ -645,51 +809,60 @@
     </section>
 
     <!-- PROJECTS SHOWCASE SECTION (THE 8 PROJECTS) -->
-    <section id="projects" class="py-16 sm:py-24 border-t border-slate-200 dark:border-slate-800/80 bg-slate-100/40 dark:bg-slate-950">
+    <section id="projects"
+      class="py-16 sm:py-24 border-t border-slate-200 dark:border-slate-800/80 bg-slate-100/40 dark:bg-slate-950">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <!-- Header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-mono text-emerald-600 dark:text-emerald-400 mb-2">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs font-mono text-emerald-600 dark:text-emerald-400 mb-2">
               <span>PROJECT SHOWCASE</span>
             </div>
             <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
               Featured Research &amp; Engineering Works
             </h2>
             <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base mt-1 max-w-2xl">
-              Explore the 8 core open-source repositories spanning cyber-physical agriculture, automated scientific research tools, and media utilities.
+              Explore the 8 core open-source repositories spanning cyber-physical agriculture, automated scientific
+              research tools, and media utilities.
             </p>
           </div>
 
           <!-- Live Search Bar -->
           <div class="w-full md:w-80 relative">
-            <input 
-              id="project-search" 
-              type="text" 
-              placeholder="Search projects or tags (e.g., esp32, llm)..." 
+            <input id="project-search" type="text" placeholder="Search projects or tags (e.g., esp32, llm)..."
               aria-label="Search projects by keyword or tech stack"
-              class="w-full px-4 py-3 pl-10 pr-9 rounded-xl bg-white dark:bg-slate-900 text-sm text-slate-900 dark:text-white placeholder-slate-400 border border-slate-200 dark:border-slate-700/80 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all shadow-sm"
-            >
-            <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+              class="w-full px-4 py-3 pl-10 pr-9 rounded-xl bg-white dark:bg-slate-900 text-sm text-slate-900 dark:text-white placeholder-slate-400 border border-slate-200 dark:border-slate-700/80 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all shadow-sm">
+            <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
-            <button id="search-clear-btn" aria-label="Clear search input" class="hidden absolute right-3 top-3 text-slate-400 hover:text-slate-600 dark:hover:text-white p-1 rounded">✕</button>
+            <button id="search-clear-btn" aria-label="Clear search input"
+              class="hidden absolute right-3 top-3 text-slate-400 hover:text-slate-600 dark:hover:text-white p-1 rounded">✕</button>
           </div>
         </div>
 
         <!-- Filter Tabs -->
         <div class="flex flex-wrap gap-2 mb-8" role="tablist" aria-label="Project Categories">
-          <button class="filter-tab active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-500 text-slate-950 transition-all shadow-sm" data-category="all">
+          <button
+            class="filter-tab active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-emerald-500 text-slate-950 transition-all shadow-sm"
+            data-category="all">
             All Projects (8)
           </button>
-          <button class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all" data-category="agri">
+          <button
+            class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all"
+            data-category="agri">
             🌱 Smart Agriculture &amp; IoT (5)
           </button>
-          <button class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all" data-category="ai">
+          <button
+            class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all"
+            data-category="ai">
             🤖 AI &amp; Research Tools (2)
           </button>
-          <button class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all" data-category="media">
+          <button
+            class="filter-tab px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-200 dark:border-slate-800 transition-all"
+            data-category="media">
             🎵 Media &amp; Utilities (1)
           </button>
         </div>
@@ -698,422 +871,596 @@
         <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
           <!-- PROJECT 1: SLR-Magic -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="ai" data-keywords="slr-magic slr systematic literature review ai llm gemini screening extraction python fastapi local-first prisma research">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="ai"
+            data-keywords="slr-magic slr systematic literature review ai llm gemini screening extraction python fastapi local-first prisma research">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
                   🤖 AI &amp; Research
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">v0.9.x • Local-First</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors flex items-center gap-2">
                 SLR-Magic
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/SLR-Magic</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Local-first, LLM-powered platform for <strong>Systematic Literature Reviews (SLRs)</strong>. Automates title/abstract screening, eligibility criteria matching, and data extraction with human-in-the-loop precision using modern Large Language Models (Gemini &amp; local engines).
+                Local-first, LLM-powered platform for <strong>Systematic Literature Reviews (SLRs)</strong>. Automates
+                title/abstract screening, eligibility criteria matching, and data extraction with human-in-the-loop
+                precision using modern Large Language Models (Gemini &amp; local engines).
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Human-in-the-loop LLM screening &amp; synthesis
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Human-in-the-loop LLM screening
+                  &amp; synthesis
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Zero data leaks: offline/local vector storage
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Zero data leaks: offline/local
+                  vector storage
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> PRISMA workflow &amp; BibTeX / RIS importer
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> PRISMA workflow &amp; BibTeX /
+                  RIS importer
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Gemini LLM</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Python</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">VectorDB</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">PRISMA</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Gemini
+                  LLM</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Python</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">VectorDB</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">PRISMA</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/SLR-Magic" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/SLR-Magic" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('SLR-Magic')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 dark:hover:bg-indigo-900/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('SLR-Magic')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 dark:hover:bg-indigo-900/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 2: Outliner -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="ai" data-keywords="outliner notes research outline tree markdown writing thesis structure academic productivity">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="ai"
+            data-keywords="outliner notes research outline tree markdown writing thesis structure academic productivity">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
                   📝 Thought &amp; Research
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Productivity</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors flex items-center gap-2">
                 Outliner
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/Outliner</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                A focused, hierarchical thought-structuring tool and academic outliner. Designed to synthesize complex research questions, academic papers, and thesis chapters into agile, expandable markdown node trees.
+                A focused, hierarchical thought-structuring tool and academic outliner. Designed to synthesize complex
+                research questions, academic papers, and thesis chapters into agile, expandable markdown node trees.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Keyboard-driven node indentation &amp; folding
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Keyboard-driven node indentation
+                  &amp; folding
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Bidirectional markdown export &amp; sync
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Bidirectional markdown export
+                  &amp; sync
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Minimalist latency-free web architecture
+                  <span class="text-indigo-600 dark:text-indigo-400 font-bold">✔</span> Minimalist latency-free web
+                  architecture
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">TypeScript</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Markdown AST</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">LocalStorage</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">TypeScript</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Markdown
+                  AST</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">LocalStorage</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/Outliner" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/Outliner" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('Outliner')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 dark:hover:bg-indigo-900/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('Outliner')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 dark:hover:bg-indigo-900/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 3: lirius -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-sky-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="media" data-keywords="lirius lyric synchronizer audio flac mp3 srt lrc subtitle timestamps web audio multimedia">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-sky-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="media"
+            data-keywords="lirius lyric synchronizer audio flac mp3 srt lrc subtitle timestamps web audio multimedia">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-sky-500/10 text-sky-600 dark:text-sky-400 border border-sky-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-sky-500/10 text-sky-600 dark:text-sky-400 border border-sky-500/20">
                   🎵 Audio &amp; Media
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Web App</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors flex items-center gap-2">
                 lirius
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/lirius</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Web-based audio lyric synchronizer tool. Drop high-fidelity audio (such as lossless <code class="text-sky-600 dark:text-sky-300 font-mono">.flac</code> or MP3) and plain text lyrics to interactively synchronize timestamps and produce clean <code class="text-sky-600 dark:text-sky-300 font-mono">.srt</code> and LRC subtitle files.
+                Web-based audio lyric synchronizer tool. Drop high-fidelity audio (such as lossless <code
+                  class="text-sky-600 dark:text-sky-300 font-mono">.flac</code> or MP3) and plain text lyrics to
+                interactively synchronize timestamps and produce clean <code
+                  class="text-sky-600 dark:text-sky-300 font-mono">.srt</code> and LRC subtitle files.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Web Audio API waveform &amp; playback scrub
+                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Web Audio API waveform &amp; playback
+                  scrub
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Millisecond-precision subtitle synchronization
+                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Millisecond-precision subtitle
+                  synchronization
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Direct export to .srt, .vtt, and .lrc formats
+                  <span class="text-sky-600 dark:text-sky-400 font-bold">✔</span> Direct export to .srt, .vtt, and .lrc
+                  formats
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Web Audio API</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">FLAC Parser</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">SRT / LRC Export</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Web
+                  Audio API</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">FLAC
+                  Parser</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">SRT
+                  / LRC Export</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/lirius" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-sky-600 dark:hover:text-sky-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/lirius" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-sky-600 dark:hover:text-sky-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('lirius')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-sky-50 dark:bg-sky-950/60 hover:bg-sky-100 dark:hover:bg-sky-900/80 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('lirius')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-sky-50 dark:bg-sky-950/60 hover:bg-sky-100 dark:hover:bg-sky-900/80 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 4: UDAWA-Gadadar -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="agri" data-keywords="udawa gadadar esp32 greenhouse automation power monitoring cyber physical iot relays acs712 c++ freertos">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="agri"
+            data-keywords="udawa gadadar esp32 greenhouse automation power monitoring cyber physical iot relays acs712 c++ freertos">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                   🌱 Smart Agri • Edge
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Cyber-Physical Node</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
                 UDAWA-Gadadar
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Gadadar</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Agent-based cyber-physical greenhouse instrument automation system. Designed for small-scale horticulture greenhouses with ESP32 to automate relay instruments while monitoring real-time electrical AC power consumption and appliance load safety.
+                Agent-based cyber-physical greenhouse instrument automation system. Designed for small-scale
+                horticulture greenhouses with ESP32 to automate relay instruments while monitoring real-time electrical
+                AC power consumption and appliance load safety.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time AC voltage, current &amp; wattage logging
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time AC voltage, current
+                  &amp; wattage logging
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Autonomous multi-channel relay actuation
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Autonomous multi-channel relay
+                  actuation
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> MQTT telemetric dispatch with fail-safe limits
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> MQTT telemetric dispatch with
+                  fail-safe limits
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">C++ / FreeRTOS</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ACS712</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">MQTT</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">C++
+                  / FreeRTOS</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ACS712</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">MQTT</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/UDAWA-Gadadar" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/UDAWA-Gadadar" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('UDAWA-Gadadar')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('UDAWA-Gadadar')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 5: UDAWA-Cloud-WebIface -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="agri" data-keywords="udawa cloud webiface dashboard telemetry analytics precision agriculture iot charts web interface rest api websockets">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="agri"
+            data-keywords="udawa cloud webiface dashboard telemetry analytics precision agriculture iot charts web interface rest api websockets">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                   🌱 Smart Agri • Cloud
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Web Platform</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
                 UDAWA-Cloud-WebIface
-                <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Cloud-WebIface</span>
+                <span
+                  class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Cloud-WebIface</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Central cloud web dashboard for the UDAWA smart agriculture ecosystem. Consolidates multi-sensor telemetry across distributed greenhouse nodes, renders historical time-series analytics, and provides remote manual overrides.
+                Central cloud web dashboard for the UDAWA smart agriculture ecosystem. Consolidates multi-sensor
+                telemetry across distributed greenhouse nodes, renders historical time-series analytics, and provides
+                remote manual overrides.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time WebSocket / MQTT sensor graphs
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time WebSocket / MQTT
+                  sensor graphs
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Historical data logging &amp; export (CSV / JSON)
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Historical data logging &amp;
+                  export (CSV / JSON)
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Multi-farm threshold alarms &amp; remote controls
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Multi-farm threshold alarms
+                  &amp; remote controls
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Node.js</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">WebSockets</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Tailwind CSS</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Chart.js</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Node.js</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">WebSockets</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Tailwind
+                  CSS</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Chart.js</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/UDAWA-Cloud-WebIface" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/UDAWA-Cloud-WebIface" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('UDAWA-Cloud-WebIface')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('UDAWA-Cloud-WebIface')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 6: UDAWA-Damodar -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="agri" data-keywords="udawa damodar hydroponics water ec tds ph nutrient dosing sensors esp32 agriculture precision farming">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="agri"
+            data-keywords="udawa damodar hydroponics water ec tds ph nutrient dosing sensors esp32 agriculture precision farming">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                   🌱 Smart Agri • Hydroponics
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Nutrient Node</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
                 UDAWA-Damodar
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Damodar</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Hydroponic water quality and automated nutrient dosing controller. Actively reads and logs <strong>EC / TDS</strong> (Conductivity / Dissolved Solids), water temperature, and pH, triggering automated peristaltic pumps for closed-loop fertilizer control.
+                Hydroponic water quality and automated nutrient dosing controller. Actively reads and logs <strong>EC /
+                  TDS</strong> (Conductivity / Dissolved Solids), water temperature, and pH, triggering automated
+                peristaltic pumps for closed-loop fertilizer control.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> High-precision analog EC/TDS &amp; DS18B20 sensing
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> High-precision analog EC/TDS
+                  &amp; DS18B20 sensing
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Closed-loop peristaltic nutrient dose regulation
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Closed-loop peristaltic
+                  nutrient dose regulation
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Temperature-compensated conductivity formulas
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Temperature-compensated
+                  conductivity formulas
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">EC/TDS Probe</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">DS18B20</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Peristaltic PWM</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">EC/TDS
+                  Probe</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">DS18B20</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Peristaltic
+                  PWM</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/UDAWA-Damodar" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/UDAWA-Damodar" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('UDAWA-Damodar')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('UDAWA-Damodar')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 7: UDAWA-Murari -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="agri" data-keywords="udawa murari microclimate temperature humidity vpd greenhouse ventilation misting esp32 sensors sht3x bme280">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="agri"
+            data-keywords="udawa murari microclimate temperature humidity vpd greenhouse ventilation misting esp32 sensors sht3x bme280">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                   🌱 Smart Agri • Climate
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">Microclimate Node</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
                 UDAWA-Murari
                 <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Murari</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Greenhouse microclimate surveillance and environmental regulation node. Continuously calculates ambient temperature, relative humidity, and <strong>Vapor Pressure Deficit (VPD)</strong> to orchestrate high-pressure misting and exhaust fans.
+                Greenhouse microclimate surveillance and environmental regulation node. Continuously calculates ambient
+                temperature, relative humidity, and <strong>Vapor Pressure Deficit (VPD)</strong> to orchestrate
+                high-pressure misting and exhaust fans.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time VPD calculation for plant transpiration
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Real-time VPD calculation for
+                  plant transpiration
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> SHT3x / BME280 precision sensor integration
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> SHT3x / BME280 precision
+                  sensor integration
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Automated cooling mist &amp; fan stage triggering
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Automated cooling mist &amp;
+                  fan stage triggering
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">SHT3x / BME280</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">VPD Formula</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">PWM Relays</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP32</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">SHT3x
+                  / BME280</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">VPD
+                  Formula</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">PWM
+                  Relays</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/UDAWA-Murari" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/UDAWA-Murari" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('UDAWA-Murari')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('UDAWA-Murari')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
           </article>
 
           <!-- PROJECT 8: UDAWA-Embedded-WebIface -->
-          <article class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl" data-category="agri" data-keywords="udawa embedded webiface esp32 littlefs asyncwebserver captive portal offline calibration iot firmware edge ui">
+          <article
+            class="project-card glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 flex flex-col justify-between group shadow-md hover:shadow-xl"
+            data-category="agri"
+            data-keywords="udawa embedded webiface esp32 littlefs asyncwebserver captive portal offline calibration iot firmware edge ui">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <span
+                  class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
                   🌱 Smart Agri • Edge UI
                 </span>
                 <span class="text-xs font-mono text-slate-500 dark:text-slate-400">On-Chip Web Server</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+
+              <h3
+                class="text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors flex items-center gap-2">
                 UDAWA-Embedded-WebIface
-                <span class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Embedded-WebIface</span>
+                <span
+                  class="text-xs font-normal text-slate-500 dark:text-slate-400 font-mono">/UDAWA-Embedded-WebIface</span>
               </h3>
-              
+
               <p class="text-slate-600 dark:text-slate-300 text-sm mt-2.5 leading-relaxed">
-                Lightweight, zero-cloud embedded web interface running natively on the ESP32 microcontroller. Serves local web pages directly via LittleFS for offline greenhouse calibration, Wi-Fi captive portal provisioning, and direct manual relay toggling.
+                Lightweight, zero-cloud embedded web interface running natively on the ESP32 microcontroller. Serves
+                local web pages directly via LittleFS for offline greenhouse calibration, Wi-Fi captive portal
+                provisioning, and direct manual relay toggling.
               </p>
 
               <!-- Technical Highlights -->
               <ul class="mt-4 space-y-1.5 text-xs text-slate-600 dark:text-slate-400">
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Zero cloud reliance: runs 100% locally on ESP32
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Zero cloud reliance: runs 100%
+                  locally on ESP32
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Wi-Fi SoftAP Captive Portal &amp; network scanner
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> Wi-Fi SoftAP Captive Portal
+                  &amp; network scanner
                 </li>
                 <li class="flex items-center gap-2">
-                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> On-the-fly EC/pH sensor calibration interface
+                  <span class="text-emerald-600 dark:text-emerald-400 font-bold">✔</span> On-the-fly EC/pH sensor
+                  calibration interface
                 </li>
               </ul>
 
               <!-- Stack Tags -->
               <div class="flex flex-wrap gap-1.5 mt-5">
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">AsyncWebServer</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">LittleFS</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP-IDF / C++</span>
-                <span class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Offline Web</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">AsyncWebServer</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">LittleFS</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">ESP-IDF
+                  / C++</span>
+                <span
+                  class="px-2 py-0.5 rounded-md text-[11px] font-mono bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700/60">Offline
+                  Web</span>
               </div>
             </div>
 
             <!-- Card Actions -->
-            <div class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
-              <a href="https://github.com/iwas108/UDAWA-Embedded-WebIface" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
+            <div
+              class="pt-5 mt-5 border-t border-slate-200 dark:border-slate-800/80 flex items-center justify-between gap-3">
+              <a href="https://github.com/iwas108/UDAWA-Embedded-WebIface" target="_blank" rel="noopener noreferrer"
+                class="text-xs font-semibold text-slate-800 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 flex items-center gap-1.5 transition-colors min-h-[44px]">
                 <span>View on GitHub</span>
-                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
-              <button onclick="openModal('UDAWA-Embedded-WebIface')" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
+              <button onclick="openModal('UDAWA-Embedded-WebIface')"
+                class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-700/50 transition-colors min-h-[44px] flex items-center">
                 Details →
               </button>
             </div>
@@ -1125,8 +1472,10 @@
         <div id="no-results" class="hidden text-center py-16">
           <div class="text-4xl mb-2" role="img" aria-label="Search">🔍</div>
           <h3 class="text-lg font-bold text-slate-900 dark:text-white">No matching projects found</h3>
-          <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Try refining your search term or clicking "Reset Filters".</p>
-          <button onclick="resetFilters()" class="mt-4 px-5 py-2.5 rounded-xl text-xs font-semibold bg-emerald-500 text-slate-950 hover:bg-emerald-400 transition-colors min-h-[44px]">
+          <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Try refining your search term or clicking "Reset
+            Filters".</p>
+          <button onclick="resetFilters()"
+            class="mt-4 px-5 py-2.5 rounded-xl text-xs font-semibold bg-emerald-500 text-slate-950 hover:bg-emerald-400 transition-colors min-h-[44px]">
             Reset Filters
           </button>
         </div>
@@ -1135,25 +1484,31 @@
     </section>
 
     <!-- UDAWA ECOSYSTEM ARCHITECTURE SECTION -->
-    <section id="ecosystem" class="py-16 sm:py-20 border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-slate-900/30">
+    <section id="ecosystem"
+      class="py-16 sm:py-20 border-t border-slate-200 dark:border-slate-800/80 bg-white/50 dark:bg-slate-900/30">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div class="text-center max-w-3xl mx-auto mb-14">
-          <span class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Integrated Cyber-Physical Framework</span>
+          <span
+            class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Integrated
+            Cyber-Physical Framework</span>
           <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-2">
             The UDAWA Smart Agriculture Architecture
           </h2>
           <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base mt-3">
-            <strong class="text-slate-900 dark:text-white">UDAWA</strong> (<em>Universal Digital Agriculture Watering Assistant</em>) unites distributed edge microcontrollers, on-chip web servers, and cloud analytics into a resilient, multi-tier precision farming network.
+            <strong class="text-slate-900 dark:text-white">UDAWA</strong> (<em>Universal Digital Agriculture Workflow
+              Assistant</em>) unites distributed edge microcontrollers, on-chip web servers, and cloud analytics into a
+            resilient, multi-tier precision farming network.
           </p>
         </div>
 
         <!-- Architecture Flow Diagram in HTML/CSS -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          
+
           <!-- Layer 1: Field Edge Nodes -->
           <div class="p-6 rounded-3xl glass-card border border-emerald-500/20 relative shadow-sm">
-            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
               01
             </div>
             <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Edge Sensor &amp; Actuator Layer</h3>
@@ -1161,21 +1516,28 @@
               Hardware microcontrollers running FreeRTOS directly inside greenhouse bays:
             </p>
             <div class="space-y-2 text-xs font-mono">
-              <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
-                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Damodar:</span> EC, TDS, water temp &amp; nutrient pumps.
+              <div
+                class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
+                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Damodar:</span> EC, TDS, water temp
+                &amp; nutrient pumps.
               </div>
-              <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
-                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Murari:</span> Ambient temp, RH &amp; VPD misting regulation.
+              <div
+                class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
+                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Murari:</span> Ambient temp, RH
+                &amp; VPD misting regulation.
               </div>
-              <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
-                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Gadadar:</span> AC relay actuators &amp; real-time power monitoring.
+              <div
+                class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
+                <span class="text-emerald-600 dark:text-emerald-400 font-bold">UDAWA-Gadadar:</span> AC relay actuators
+                &amp; real-time power monitoring.
               </div>
             </div>
           </div>
 
           <!-- Layer 2: On-Chip Edge Configuration -->
           <div class="p-6 rounded-3xl glass-card border border-teal-500/20 relative shadow-sm">
-            <div class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-600 dark:text-teal-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-600 dark:text-teal-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
               02
             </div>
             <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Edge Computing &amp; Local Access</h3>
@@ -1183,16 +1545,20 @@
               Guaranteed field resilience during network or internet outages:
             </p>
             <div class="space-y-2 text-xs font-mono">
-              <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
+              <div
+                class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
                 <span class="text-teal-600 dark:text-teal-400 font-bold">UDAWA-Embedded-WebIface:</span>
-                <p class="font-sans text-slate-600 dark:text-slate-300 mt-1">Lightweight web server hosted inside ESP32 LittleFS flash. Enables offline sensor calibration, Wi-Fi captive portal setup, and direct relay overrides without external internet connectivity.</p>
+                <p class="font-sans text-slate-600 dark:text-slate-300 mt-1">Lightweight web server hosted inside ESP32
+                  LittleFS flash. Enables offline sensor calibration, Wi-Fi captive portal setup, and direct relay
+                  overrides without external internet connectivity.</p>
               </div>
             </div>
           </div>
 
           <!-- Layer 3: Centralized Cloud & Telemetry -->
           <div class="p-6 rounded-3xl glass-card border border-sky-500/20 relative shadow-sm">
-            <div class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-600 dark:text-sky-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-600 dark:text-sky-400 flex items-center justify-center font-bold font-mono text-sm mb-4">
               03
             </div>
             <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Cloud Telemetry &amp; Analytics</h3>
@@ -1200,9 +1566,12 @@
               Centralized oversight, cross-farm analytics, and historical logging:
             </p>
             <div class="space-y-2 text-xs font-mono">
-              <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
+              <div
+                class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800">
                 <span class="text-sky-600 dark:text-sky-400 font-bold">UDAWA-Cloud-WebIface:</span>
-                <p class="font-sans text-slate-600 dark:text-slate-300 mt-1">Full-stack web application with MQTT/WebSockets, graphical dashboards, historical trend reporting, multi-node telemetry synchronization, and proactive anomaly alert broadcasts.</p>
+                <p class="font-sans text-slate-600 dark:text-slate-300 mt-1">Full-stack web application with
+                  MQTT/WebSockets, graphical dashboards, historical trend reporting, multi-node telemetry
+                  synchronization, and proactive anomaly alert broadcasts.</p>
               </div>
             </div>
           </div>
@@ -1215,38 +1584,53 @@
     <!-- CONNECT & CONTACT SECTION -->
     <section id="connect" class="py-16 sm:py-24 border-t border-slate-200 dark:border-slate-800/80">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        
-        <span class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Connect &amp; Collaborate</span>
+
+        <span
+          class="text-xs uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-mono font-bold">Connect
+          &amp; Collaborate</span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mt-2">
           Let's Build the Future of Smart Farming &amp; Open Science
         </h2>
         <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
-          Whether you are an academic researcher, agriculturalist, student, or open-source contributor, I welcome dialogue, joint research, and technical collaboration.
+          Whether you are an academic researcher, agriculturalist, student, or open-source contributor, I welcome
+          dialogue, joint research, and technical collaboration.
         </p>
 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mt-10">
-          
+
           <!-- GitHub Link -->
-          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition-all group text-left shadow-sm hover:shadow-md min-h-[44px]">
-            <div class="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-900 dark:text-white mb-3 group-hover:scale-105 transition-transform">
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer"
+            class="p-5 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-600 transition-all group text-left shadow-sm hover:shadow-md min-h-[44px]">
+            <div
+              class="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-900 dark:text-white mb-3 group-hover:scale-105 transition-transform">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>
             </div>
             <div class="text-xs font-mono text-slate-500 dark:text-slate-400">Repositories &amp; Code</div>
-            <div class="text-sm font-bold text-slate-900 dark:text-white mt-0.5 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">github.com/iwas108 ↗</div>
+            <div
+              class="text-sm font-bold text-slate-900 dark:text-white mt-0.5 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+              github.com/iwas108 ↗</div>
           </a>
 
           <!-- Lab Org Link -->
-          <a href="https://github.com/Narin-Laboratory" target="_blank" rel="noopener noreferrer" class="p-5 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition-all group text-left shadow-sm hover:shadow-md min-h-[44px]">
-            <div class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
+          <a href="https://github.com/Narin-Laboratory" target="_blank" rel="noopener noreferrer"
+            class="p-5 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 hover:border-emerald-500 transition-all group text-left shadow-sm hover:shadow-md min-h-[44px]">
+            <div
+              class="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-105 transition-transform">
               <span class="font-bold text-sm">NL</span>
             </div>
             <div class="text-xs font-mono text-slate-500 dark:text-slate-400">Research Group</div>
-            <div class="text-sm font-bold text-slate-900 dark:text-white mt-0.5 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">Narin-Laboratory ↗</div>
+            <div
+              class="text-sm font-bold text-slate-900 dark:text-white mt-0.5 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+              Narin-Laboratory ↗</div>
           </a>
 
           <!-- Research / Academic Affiliation -->
           <div class="p-5 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 text-left shadow-sm">
-            <div class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-3">
+            <div
+              class="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mb-3">
               <span class="text-base" role="img" aria-label="Academic">🎓</span>
             </div>
             <div class="text-xs font-mono text-slate-500 dark:text-slate-400">Academic Bases</div>
@@ -1256,11 +1640,14 @@
         </div>
 
         <!-- Citation / Dual Philosophy Footer Callout -->
-        <div class="mt-14 p-6 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-400 max-w-3xl mx-auto shadow-sm">
+        <div
+          class="mt-14 p-6 rounded-2xl glass-card border border-slate-200 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-400 max-w-3xl mx-auto shadow-sm">
           <p class="italic text-slate-800 dark:text-slate-200 mb-1 font-semibold text-sm">
-            "Selesai Belajar Mengajarlah, Dengan Demikian Kau Akan Terus Belajar. || Bersyukur adalah wujud nyata dari 'jangan lupa bahagia'."
+            "Selesai Belajar Mengajarlah, Dengan Demikian Kau Akan Terus Belajar. || Bersyukur adalah wujud nyata dari
+            'jangan lupa bahagia'."
           </p>
-          <span class="font-mono text-slate-500 dark:text-slate-400">— I Wayan Aditya Suranata (Nang Adit, iwas108)</span>
+          <span class="font-mono text-slate-500 dark:text-slate-400">— I Wayan Aditya Suranata (Nang Adit,
+            iwas108)</span>
         </div>
 
       </div>
@@ -1269,7 +1656,8 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="border-t border-slate-200 dark:border-slate-800/80 bg-white/90 dark:bg-slate-950/90 py-10 z-10 text-xs text-slate-500 dark:text-slate-400">
+  <footer
+    class="border-t border-slate-200 dark:border-slate-800/80 bg-white/90 dark:bg-slate-950/90 py-10 z-10 text-xs text-slate-500 dark:text-slate-400">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2">
         <span class="font-mono font-bold text-slate-900 dark:text-white">iwas108.github.io</span>
@@ -1280,7 +1668,8 @@
       <div class="flex items-center gap-4 text-slate-500 dark:text-slate-400">
         <a href="#hero" class="hover:text-slate-900 dark:hover:text-white transition-colors">Back to top ↑</a>
         <span>•</span>
-        <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 dark:hover:text-white transition-colors">GitHub</a>
+        <a href="https://github.com/iwas108" target="_blank" rel="noopener noreferrer"
+          class="hover:text-slate-900 dark:hover:text-white transition-colors">GitHub</a>
         <span>•</span>
         <a href="sitemap.xml" class="hover:text-slate-900 dark:hover:text-white transition-colors">Sitemap</a>
         <span>•</span>
@@ -1290,34 +1679,48 @@
   </footer>
 
   <!-- DETAIL MODAL FOR ALL 8 PROJECTS -->
-  <div id="project-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-200" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="glass-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto">
-      
-      <button id="modal-close-x" onclick="closeModal()" aria-label="Close project modal" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 dark:hover:text-white p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+  <div id="project-modal"
+    class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-200"
+    role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div
+      class="glass-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto">
+
+      <button id="modal-close-x" onclick="closeModal()" aria-label="Close project modal"
+        class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 dark:hover:text-white p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
       </button>
 
       <div class="flex items-center gap-2 mb-2">
-        <span id="modal-category" class="px-2.5 py-0.5 rounded-full text-xs font-mono font-semibold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">Category</span>
+        <span id="modal-category"
+          class="px-2.5 py-0.5 rounded-full text-xs font-mono font-semibold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">Category</span>
       </div>
 
       <h3 id="modal-title" class="text-2xl font-bold text-slate-900 dark:text-white">Project Title</h3>
-      
-      <p id="modal-desc" class="text-slate-600 dark:text-slate-300 text-sm mt-3 leading-relaxed">Detailed description will be injected here.</p>
+
+      <p id="modal-desc" class="text-slate-600 dark:text-slate-300 text-sm mt-3 leading-relaxed">Detailed description
+        will be injected here.</p>
 
       <div class="mt-5 pt-5 border-t border-slate-200 dark:border-slate-800">
-        <h4 class="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">Architecture &amp; Key Features</h4>
+        <h4 class="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2">
+          Architecture &amp; Key Features</h4>
         <ul id="modal-features" class="space-y-2 text-xs text-slate-700 dark:text-slate-300">
           <!-- Injected via JS -->
         </ul>
       </div>
 
       <div class="mt-5 pt-5 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between gap-3">
-        <a id="modal-github-link" href="#" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl text-xs font-semibold bg-emerald-500 text-slate-950 hover:bg-emerald-400 transition-colors flex items-center gap-2 min-h-[44px]">
+        <a id="modal-github-link" href="#" target="_blank" rel="noopener noreferrer"
+          class="px-4 py-2.5 rounded-xl text-xs font-semibold bg-emerald-500 text-slate-950 hover:bg-emerald-400 transition-colors flex items-center gap-2 min-h-[44px]">
           <span>Open Repository on GitHub</span>
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
         </a>
-        <button onclick="closeModal()" class="px-3.5 py-2.5 text-xs text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-xl min-h-[44px]">
+        <button onclick="closeModal()"
+          class="px-3.5 py-2.5 text-xs text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-xl min-h-[44px]">
           Close
         </button>
       </div>
@@ -1448,12 +1851,12 @@
       const catEl = document.getElementById('modal-category');
       catEl.textContent = data.category;
       catEl.className = 'px-2.5 py-0.5 rounded-full text-xs font-mono font-semibold ' + data.categoryColor;
-      
+
       document.getElementById('modal-desc').textContent = data.desc;
-      
+
       const featuresEl = document.getElementById('modal-features');
       featuresEl.innerHTML = data.features.map(f => `<li class="flex items-start gap-2"><span class="text-emerald-500 font-bold">✓</span><span>${f}</span></li>`).join('');
-      
+
       document.getElementById('modal-github-link').href = data.repo;
 
       const modal = document.getElementById('project-modal');
@@ -1625,4 +2028,5 @@
   </script>
 
 </body>
+
 </html>
